@@ -1,0 +1,92 @@
+.dashboard {
+  width: 850px;
+  background: #2b2254;
+  color: white;
+  padding: 25px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.dashboard h2 {
+  font-size: 1.6rem;
+  color: #ffffffcc;
+}
+
+.dashboard span {
+  color: #ffb347;
+}
+
+.card {
+  background: #3b3172;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.total-bill h1 {
+  color: #ffd36e;
+  font-size: 2rem;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  background: #ffd36e;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #2b2254;
+}
+
+/* Recent Splits */
+.recent-splits ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.recent-splits li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #251a46;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.recent-splits li h4 {
+  margin: 0;
+  color: #ffd36e;
+}
+
+.recent-splits li small {
+  font-size: 0.7rem;
+  color: #aaa;
+}
+
+/* Quick Actions */
+.actions .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.actions .buttons button {
+  background: #ffd36e;
+  color: #2b2254;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.1s;
+}
+
+.actions .buttons button:hover {
+  transform: scale(1.03);
+}

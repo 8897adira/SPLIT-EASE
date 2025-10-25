@@ -1,0 +1,138 @@
+.split-screen {
+  width: 850px;
+  background: #2b2254;
+  color: white;
+  padding: 25px;
+  border-radius: 25px;
+  height: 90vh;
+}
+
+.split-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.receipt {
+  background: #3b3172;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.members {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.member {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3b3172;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.member input {
+  width: 80px;
+  text-align: right;
+  background: #251a46;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 6px;
+}
+
+.summary {
+  margin-top: 15px;
+  text-align: center;
+  color: #ffd36e;
+}
+
+.confirm-btn {
+  background: #ffd36e;
+  color: #2b2254;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.result {
+  background: #3b3172;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.result h4 {
+  color: #ffd36e;
+}
+
+.result ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.result li {
+  background: #251a46;
+  padding: 15px 12px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-bottom: 9px;
+}
+.add-member {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3b3172;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.add-member input {
+  flex: 1;
+  background: #251a46;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.add-btn {
+  background: transparent;
+  color: #ffd36e;
+  font-weight: bold;
+  border: 1px dashed #ffd36e;
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: rgba(255, 211, 110, 0.1);
+}
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: #ff8080;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: color 0.2s;
+}
+
+.remove-btn:hover {
+  color: #ffb3b3;
+}
